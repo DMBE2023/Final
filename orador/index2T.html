@@ -99,7 +99,7 @@
         </div>
     </div>
     <div class="container text-center">
-        <form action="#" method="post" >
+        <form action="#" method="post" id="form" >
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
                     <input class="form-control form-control-sm d-inline" type="text" id="nombre" placeholder="Nombre"
@@ -142,8 +142,9 @@
 
             <div class="row justify-content-center">
                 <div class=" col-md-8 ">
-                    <button class="btn btn-outline-success col-5 " type="button"  id="borra">Borrar</button>
-                    <button class="btn btn-outline-success col-5 " type="button">Resumen</button>
+                    <button class="btn btn-outline-success col-5 " type="button"  id="borra"
+                    onclick="borrar()">Borrar</button>
+                    <button class="btn btn-outline-success col-5 " type="button" onclick="ticket()">Resumen</button>
 
                 </div>
             </div>

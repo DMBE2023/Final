@@ -19,3 +19,12 @@ function calTotal() {
 
   document.getElementById("pagar").innerHTML = `Total a pagar :$${total}`;
 }
+
+function borrar() {
+  document.getElementById("form").reset();
+}
+
+function ticket() {
+  let mens = document.getElementById('pagar').innerHTML
+  alert(`Gracias por su compra, ${mens}`)
+  }
